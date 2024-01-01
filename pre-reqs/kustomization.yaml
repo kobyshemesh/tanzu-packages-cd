@@ -6,3 +6,4 @@ resources:
 - namespaces.yaml
 - cert-manager-sa.yaml
 - contour-sa.yaml
+- redis-sa.yaml
