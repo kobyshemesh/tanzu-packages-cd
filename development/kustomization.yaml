@@ -5,6 +5,7 @@ generatorOptions:
 resources:
 - cert-manager-package-install.yaml
 - contour-package-install.yaml
+- redis.yaml
 spec:
   dependsOn:
     - name: ./pre-reqs
