@@ -19,5 +19,5 @@ spec:
   targetNamespace: demo
   valuesFrom:
   - kind: Secret
-    name: redis-secret
+    name: redis-packages-values
     valuesKey: inline-configurations
