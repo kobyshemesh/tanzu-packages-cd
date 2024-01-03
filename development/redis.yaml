@@ -15,7 +15,7 @@ spec:
   install:
     createNamespace: true
   interval: 10m0s
-  serviceAccountName: redis-instance-sa
+  serviceAccountName: redis-sa
   targetNamespace: demo
   valuesFrom:
   - kind: Secret
