@@ -18,7 +18,7 @@ secretGenerator:
   options:
     annotations:
       tkg.tanzu.vmware.com/tanzu-package: contour-packages
-- name: redis-secret
+- name: redis-packages-values
   namespace: demo
   files:
   - redis-values.yaml
