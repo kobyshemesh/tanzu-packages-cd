@@ -20,4 +20,4 @@ spec:
   valuesFrom:
   - kind: Secret
     name: redis-packages-values
-    valuesKey: inline-configurations
+    valuesKey: redis-values.yaml
