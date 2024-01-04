@@ -10,7 +10,7 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
-        name: bitnami
+        name: tanzu-helm-resources
       version: 18.6.1
   install:
     createNamespace: true
